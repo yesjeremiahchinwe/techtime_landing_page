@@ -124,7 +124,7 @@ const Courses = () => {
     ]
 
     const allCourses = courses.map(course => (
-        <div key={course.id} className="p-4 bg-[#ffffff] max-w-[439px] rounded-2xl hover:scale-[1.025] cursor-pointer">
+        <div key={course.id} className="p-4 bg-[#ffffff] max-w-[439px] rounded-2xl hover:scale-[1.025] cursor-pointer shadow-xl">
             <img src={course.img} alt="A student sitting in front of a computer" />
 
             <div className="flex justify-between py-4 items-center">
@@ -160,24 +160,24 @@ const Courses = () => {
 
 
     return (
-        <section className='min-h-screen w-full min-w-[375px] bg-[#F8F9FC] px-6 md:px-8 xl:px-0 relative'>
+        <section className='min-h-screen w-full min-w-[375px] bg-[#F8F9FC] relative mx-auto px-6'>
             <img src={star} alt="A star" className="hidden xl:block absolute top-[150px] left-[200px]" />
-            <article className='xl:w-[95%] w-fit mx-auto md:py-6 flex flex-col justify-center items-center'>
+            <article className='xl:w-[95%] xl:mx-auto md:py-6 flex flex-col justify-center items-center'>
                 <h2 className='text-center font-[600] text-[56px] leading-[68.88px] text-[#000F24]'>Browse Our Popular Courses</h2>
                 <p className='font-[500] leading-[28px] text-center text-[#A1A1A1] md:max-w-[50%] mx-auto py-4'>High-defination video is video of higher resolution and quality than standard definition. while there’s no standard meaning for high definition, generally any standard video image</p>
 
                 <ul className='w-full mx-auto py-6 pb-16 flex justify-center items-center list-none m-0 gap-x-14 gap-y-4 flex-wrap'>
                     <li>
-                        <a href="#" className='inline-block font-[700] text-[16px] leading-[21.6px] text-[#004DB3] bg-[#ffffff] p-4 rounded-md m-0'>All Categories</a>
+                        <a href="#" className='inline-block font-[700] text-[16px] leading-[21.6px] text-[#004DB3] bg-[#ffffff] p-4 rounded-md m-0 shadow-xl'>All Categories</a>
                     </li>
                     <li>
-                        <a href="#" className='inline-block text-[#A1A1A1] p-4 text-[16px] font-[700] leading-[21.6px] rounded-md hover:bg-[#ffffff] hover:text-[#004DB3]'>Design</a>
+                        <a href="#" className='inline-block text-[#A1A1A1] p-4 text-[16px] font-[700] leading-[21.6px] rounded-md hover:bg-[#ffffff] hover:text-[#004DB3] hover:shadow-xl'>Design</a>
                     </li>
                     <li>
-                        <a href="#" className='inline-block text-[#A1A1A1] p-4 text-[16px] font-[700] leading-[21.6px] rounded-md hover:bg-[#ffffff] hover:text-[#004DB3]'>Development</a>
+                        <a href="#" className='inline-block text-[#A1A1A1] p-4 text-[16px] font-[700] leading-[21.6px] rounded-md hover:bg-[#ffffff] hover:text-[#004DB3] hover:shadow-xl'>Development</a>
                     </li>
                     <li>
-                        <a href="#" className='inline-block text-[#A1A1A1] p-4 text-[16px] font-[700] leading-[21.6px] rounded-md hover:bg-[#ffffff] hover:text-[#004DB3]'>Marketing</a>
+                        <a href="#" className='inline-block text-[#A1A1A1] p-4 text-[16px] font-[700] leading-[21.6px] rounded-md hover:bg-[#ffffff] hover:text-[#004DB3] hover:shadow-xl'>Marketing</a>
                     </li>
                 </ul>
 
@@ -185,7 +185,7 @@ const Courses = () => {
                     {allCourses}
                 </section>
 
-                <button className="py-4 px-8 bg-[#004DB3] text-[#ffffff] text-[16px] font-[700] leading-[21.6px] rounded-md block mx-auto my-10 hover:text-[#004DB3] hover:bg-[#ffffff] border-solid border-4 border-[#004DB3]">Explore All Courses</button>
+                <button className="py-4 px-8 bg-[#004DB3] text-[#ffffff] text-[16px] font-[700] leading-[21.6px] rounded-md block mx-auto my-10 hover:text-[#004DB3] hover:bg-[#ffffff] border-solid border-4 border-[#004DB3] shadow-xl">Explore All Courses</button>
             </article>
         </section>
     )

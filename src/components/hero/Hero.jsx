@@ -16,23 +16,23 @@ const Hero = () => {
     
     return (
         <>
-            <section className='bg-[#004DB3] min-h-screen w-full min-w-[375px] flex flex-col items-center justify-center px-6 xl:px-0 relative'>
+            <section className='bg-[#004DB3] min-h-screen w-full min-w-[375px] flex flex-col items-center justify-center px-6 mx-auto relative'>
                 <img src={doubleW} alt="Skew line" className="w-[63.26px] h-[19.15px] top-[453.25px] -left-8 xl:left-0 absolute" />
-                <article className="relative xl:w-[85%] mx-auto pt-8 md:pt-20">
+                <article className="relative xl:w-[90%] xl:mx-auto pt-8 md:pt-16">
                     <img
                         src={yellowCircle}
                         alt="Green Circle"
-                        className="w-[16px] hidden xl:block h-[16.72px] top-[116.02px] left-[22px] absolute"
+                        className="w-[16px] hidden xl:block h-[16.72px] top-[7.5%] left-[10%] absolute"
                     />
                     <img
                         src={greenCircle}
                         alt="Yellow Circle"
-                        className="left-[469px] hidden xl:block top-[131.69px] h-[9.42px] w-[9.01px] border-none absolute"
+                        className="left-[50%] hidden xl:block top-[10%] h-[9.42px] w-[9.01px] border-none absolute"
                     />
                    
-                   <img src={arrow} alt="Arrow" className="top-[450.86px] absolute xl:left-[580px] rotate-[62.55] hidden xl:block" />
+                   <img src={arrow} alt="Arrow" className="top-[60%] absolute xl:left-[45%] rotate-[62.55] hidden xl:block" />
                     <div className="grid items-center grid-cols-1 xl:grid-cols-2 gap-12">
-                        <div className="text-start md:max-w-[80%] mx-auto">
+                        <div className="text-start md:max-w-full mx-auto">
 
                             <h1 className="text-[64px] leading-[82px] font-[700] text-[#ffffff] text-center md:text-start">Grow your skills to advance your career path </h1>
                             <p className="text-[#E7E7E7] leading-[26px] font-[500] py-8 md:max-w-[75%] max-w-[90%] mx-auto md:mx-0 text-center md:text-start">Build Your Future With Our Quality Education. The Best And Largest All-In-One Online Tutoring Platform In The World</p>

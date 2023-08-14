@@ -15,6 +15,7 @@ This is the Landing Page of the TechTime website Project.
 ## Overview
 
 TechTime is a website where you can grow your skills to advance your career by exploring a variety of Premium Courses that suit your career path.
+Note: This is just the landing page of the project and all the links and buttons go no where.
 
 ### The features of this project
 
@@ -30,7 +31,7 @@ The project has a total of nine reusable and maintainable components which are
 - FAQ Component
 - Footer Component
 
-### Screenshot
+### Screenshots
 
 ![Desktop View](./src/assets/screenshot_desktop.png)
 ![Mobile View](./src/assets/screenshot_mobile.png)

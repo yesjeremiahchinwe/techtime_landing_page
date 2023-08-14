@@ -12,8 +12,8 @@ const Footer = () => {
 
 
   return (
-    <footer className='bg-[#000F24] w-full min-w-[375px] min-h-[400px] pt-12 pb-20'>
-      <article className="md:py-16 md:w-[90%] mx-auto px-6 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 md:items-start md:justify-center gap-x-8 gap-y-4 md:gap-y-8">
+    <footer className='bg-[#000F24] w-full min-w-[375px] min-h-[400px] mx-auto pt-12 px-6 pb-20'>
+      <article className="md:py-16 md:w-[90%] md:mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 md:items-start md:justify-center gap-x-8 gap-y-4 md:gap-y-8">
         <div className="pb-10 md:pb-0">
           <a href="#"><img src={techtime} alt="Company logo" /></a>
           <p className="font-[400] leading-[21.6px] text-[#A1A1A1] py-6 md:max-w-[80%]">Reach out to us on any of our social media networks</p>

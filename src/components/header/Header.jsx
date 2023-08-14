@@ -10,8 +10,7 @@ const Header = () => {
 
 
     return (
-        <header className="bg-[#004DB3] text-[#ffffff] h-[104px] w-full min-w-[375px] py-6 md:py-2 sticky top-0 z-10">
-            <div className=" xl:w-[85%] mx-auto flex items-center justify-between px-4 xl:px-0">
+        <header className="bg-[#004DB3] text-[#ffffff] w-full min-w-[375px] py-[1.25rem] px-6 md:py-12 xl:px-24 sticky top-0 left-0 z-10 h-[85px] overflow-hidden flex items-center justify-between mx-auto">
                 <a href="#">
                     <img src={techtime} alt="Tech Time the title of the website" />
                 </a>
@@ -61,7 +60,7 @@ const Header = () => {
                             <a href="#">Community</a>
                         </li>
                         <li className="py-4">
-                            <button className="font-[700] text-[16px] bg-[#ffffff] text-[#004DB3] py-4 px-6 rounded-md border-4 border-solid border-[#ffffff] outline-none hover:bg-transparent hover:text-[#ffffff]">Enroll Now</button>
+                            <button className="font-[700] text-[16px] bg-[#ffffff] text-[#004DB3] py-2 px-6 rounded-md border-4 border-solid border-[#ffffff] outline-none hover:bg-transparent hover:text-[#ffffff]">Enroll Now</button>
                         </li>
                     </ul>
 
@@ -74,7 +73,6 @@ const Header = () => {
                 {/* ----------- Menu Icon ------------------ */}
                 <img src={menu} alt="Menu Icon" className="w-[40px] cursor-pointer md:hidden"
                     onClick={() => setOpen(!open)} />
-            </div>
         </header>
     )
 }

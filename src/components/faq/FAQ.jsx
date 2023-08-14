@@ -17,17 +17,17 @@ const FAQ = () => {
 
 
     return (
-        <section className='min-h-screen w-full min-w-[375px] bg-[#ffffff] pt-14 relative'>
-            <img src={bigPurpleCircle} alt="Purple Circle" className="absolute md:left-[85%] md:top-[12%] left-[92%] top-[15%]" />
+        <section className='min-h-screen w-full min-w-[375px] mx-auto bg-[#ffffff] pt-14 px-6 relative'>
+            <img src={bigPurpleCircle} alt="Purple Circle" className="hidden xl:block absolute md:left-[85%] left-[92%] top-[10%]" />
             <img src={patterBg} alt="Background Pattern" className="absolute hidden md:block md:top-0 md:right-0" />
-            <img src={wwIcon} alt="Double w" className="absolute top-[32%] left-0" />
-            <article className='py-8 md:max-w-[70%] mx-auto px-6'>
+            <img src={wwIcon} alt="Double w" className="hidden md:block absolute top-[32%] left-0" />
+            <article className='py-8 md:max-w-[80%] md:mx-auto'>
                 <h2 className='font-[600] text-[56px] leading-[68.88px] text-[#000F24] text-center'>Frequently Asked Questions</h2>
                 <p className='text-[#A1A1A1] font-[500] leading-[28px] text-center py-4 md:max-w-[75%] mx-auto'>
                     High-Defination Video Is Video Of Higher Resolution And Quality Than Standard Definition. While There’s No Standard Meaning For High Definition, Generally Any Standard Video Image
                 </p>
 
-                <div className="max-w-[900px] mx-auto py-6 wrapper">
+                <div className="max-w-[900px] mx-auto py-2 wrapper">
                     <div className="border-b-[1px] border-solid border-[#EAEAEA] pt-12 pb-6 flex flex-col justify-center">
                         <h3 htmlFor="first-question" className={`label flex justify-between gap-8 items-center font-[900] text-[24px] leading-[32.4px] py-2 cursor-pointer text-[#000F24] ${isFirst ? "text-[#004DB3]" : ""}`} onClick={() => setIsFirst(!isFirst)}>Is there a free trial available? <img src={isFirst ? minusIcon : addIcon} alt="Plus Sign" /></h3>
 
