@@ -64,9 +64,9 @@ const Features = () => {
           </div>
         </div>
 
-        <div className="w-fit relative">
+        <div className="w-fit relative mt-8 xl:mt-0">
           <img src={twoImages} alt="Two students sitting in front of a computer" className="block pt-8 md:pt-0" />
-          <img src={students} alt="Group of Students" className="absolute top-[30%] xl:left-0 -left-[20px] xl:top-[20%]" />
+          <img src={students} alt="Group of Students" className="absolute -top-[10%] left-0 md:top-[20%] md:left-[8%] xl:left-0" />
         </div>
       </article>
     </section>
