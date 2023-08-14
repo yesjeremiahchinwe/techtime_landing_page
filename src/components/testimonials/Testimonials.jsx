@@ -60,7 +60,7 @@ const Testimonials = () => {
 
     
     return (
-        <section className='min-h-screen w-full min-w-[375px] mx-auto bg-[#F8F9FC] pt-0 xl:pt-2 px-6'>
+        <section className='min-h-screen w-full mx-auto bg-[#F8F9FC] pt-0 xl:pt-2 px-8'>
             <article className='xl:w-[85%] xl:mx-auto py-8 flex flex-col justify-center items-center'>
                 <h2 className='font-[600] text-[56px] leading-[68.88px] text-[#000F24] text-center'>What our clients are saying</h2>
                 <p className='font-[500px] leading-[28px] text-center text-[#A1A1A1] md:max-w-[50%] pb-8 pt-4'>High-Defination Video Is Video Of Higher Resolution And Quality Than Standard Definition. While There’s No Standard Meaning For High Definition, Generally Any Standard Video Image</p>

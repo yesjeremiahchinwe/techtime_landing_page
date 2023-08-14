@@ -12,14 +12,14 @@ const Benefits = () => {
 
 
     return (
-        <section className='min-h-screen w-full min-w-[375px] bg-[#F8F9FC] md:px-8 xl:px-0 py-16 px-6 relative mx-auto'>
+        <section className='min-h-screen w-full bg-[#F8F9FC] md:px-8 xl:px-0 py-16 px-8 relative mx-auto'>
             <img src={yellowW} alt="Yellow Skew lines" className="absolute left-[70%]" />
 
             <img src={greenTriangle} alt="Green Triangle" className="hidden xl:block absolute left-8 top-[700px]" />
 
             <img src={bigCircle} alt="Green Triangle" className="hidden xl:block absolute right-8 top-[850px]" />
 
-            <article className="xl:w-[85%] xl:mx-auto py-4 md:py-6 grid grid-cols-1 xl:grid-cols-2 gap-20 items-center">
+            <article className="xl:w-[85%] mx-auto py-4 md:py-6 grid grid-cols-1 xl:grid-cols-2 gap-20 items-center">
                 <div>
                     <h2 className='font-[600] text-[56px] leading-[70px] text-[#000F24]'>This is why we are best from others</h2>
                     <p className='font-[500] leading-[28px] text-[#A1A1A1] py-8'>High-defination video is video of higher resolution and quality than standard definition. while there’s no standard meaning for high definition, generally any standard video image</p>

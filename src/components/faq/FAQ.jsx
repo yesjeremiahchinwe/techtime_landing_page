@@ -17,7 +17,7 @@ const FAQ = () => {
 
 
     return (
-        <section className='min-h-screen w-full min-w-[375px] mx-auto bg-[#ffffff] pt-14 px-6 relative'>
+        <section className='min-h-screen w-full mx-auto bg-[#ffffff] pt-14 px-8 relative'>
             <img src={bigPurpleCircle} alt="Purple Circle" className="hidden xl:block absolute md:left-[85%] left-[92%] top-[10%]" />
             <img src={patterBg} alt="Background Pattern" className="absolute hidden md:block md:top-0 md:right-0" />
             <img src={wwIcon} alt="Double w" className="hidden md:block absolute top-[32%] left-0" />

@@ -15,7 +15,7 @@ import autoplay from "./assets/autoplay.png";
 
 const Features = () => {
   return (
-    <section className='min-h-screen w-full min-w-[375px] mx-auto bg-[#F8F9FC] pt-12 px-6 relative'>
+    <section className='min-h-screen w-full mx-auto bg-[#F8F9FC] pt-12 px-8 relative'>
       <img src={halfCircle} alt="Half Circle Pattern" className="absolute -right-4 top-[520px] hidden xl:block overflow-x-hidden" />
 
       <img src={manyDots} alt="Many dots" className="absolute hidden xl:block xl:right-16 xl:top-[400px]" />

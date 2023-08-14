@@ -16,7 +16,7 @@ const Hero = () => {
     
     return (
         <>
-            <section className='bg-[#004DB3] min-h-screen w-full min-w-[375px] flex flex-col items-center justify-center px-6 mx-auto relative'>
+            <section className='bg-[#004DB3] min-h-screen w-full flex flex-col items-center justify-center px-8 mx-auto relative'>
                 <img src={doubleW} alt="Skew line" className="w-[63.26px] h-[19.15px] top-[453.25px] -left-8 xl:left-0 absolute" />
                 <article className="relative xl:w-[90%] xl:mx-auto pt-8 md:pt-16">
                     <img

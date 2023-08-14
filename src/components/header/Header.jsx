@@ -10,7 +10,7 @@ const Header = () => {
 
 
     return (
-        <header className="bg-[#004DB3] text-[#ffffff] w-full min-w-[375px] py-[1.25rem] px-6 md:py-12 xl:px-24 sticky top-0 left-0 z-10 h-[85px] overflow-hidden flex items-center justify-between mx-auto">
+        <header className="bg-[#004DB3] text-[#ffffff] w-full py-[1.25rem] px-4 md:py-12 xl:px-24 sticky top-0 left-0 z-10 h-[85px] overflow-hidden flex items-center justify-between mx-auto">
                 <a href="#">
                     <img src={techtime} alt="Tech Time the title of the website" />
                 </a>

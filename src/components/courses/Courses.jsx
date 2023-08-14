@@ -160,7 +160,7 @@ const Courses = () => {
 
 
     return (
-        <section className='min-h-screen w-full min-w-[375px] bg-[#F8F9FC] relative mx-auto px-6'>
+        <section className='min-h-screen w-full bg-[#F8F9FC] relative mx-auto px-8'>
             <img src={star} alt="A star" className="hidden xl:block absolute top-[150px] left-[200px]" />
             <article className='xl:w-[95%] xl:mx-auto md:py-6 flex flex-col justify-center items-center'>
                 <h2 className='text-center font-[600] text-[56px] leading-[68.88px] text-[#000F24]'>Browse Our Popular Courses</h2>
