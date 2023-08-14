@@ -12,8 +12,8 @@ const Benefits = () => {
 
 
     return (
-        <section className='min-h-screen w-full bg-[#F8F9FC] md:px-8 xl:px-0 py-16 px-8 relative mx-auto'>
-            <img src={yellowW} alt="Yellow Skew lines" className="absolute left-[70%]" />
+        <section className='min-h-screen w-full min-w-[300px] bg-[#F8F9FC] md:px-8 xl:px-0 py-16 px-8 relative mx-auto'>
+            <img src={yellowW} alt="Yellow Skew lines" className="absolute left-[70%] hidden xl:block" />
 
             <img src={greenTriangle} alt="Green Triangle" className="hidden xl:block absolute left-8 top-[700px]" />
 

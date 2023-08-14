@@ -1,16 +1,30 @@
 import techtime from "./assets/techtime.png"
 import menuClose from "./assets/icon-menu-close.svg"
 import menu from "./assets/menu.png"
-import { useState } from "react"
+import { useState, useEffect, useRef } from "react"
 
 
 
 const Header = () => {
     const [open, setOpen] = useState(false)
+    const menuRef = useRef()
+
+    useEffect(() => {
+        const handle = (e) => {
+            if (!menuRef.current.contains(e.target)) {
+                setOpen(false)
+            }
+        }
+        document.addEventListener("mousedown", handle)
+        return () => {
+            document.removeEventListener("mousedown", handle)
+        }
+    })
 
 
     return (
-        <header className="bg-[#004DB3] text-[#ffffff] w-full py-[1.25rem] px-4 md:py-12 xl:px-24 sticky top-0 left-0 z-10 h-[85px] overflow-hidden flex items-center justify-between mx-auto">
+        <header className="bg-[#004DB3] text-[#ffffff] w-full p-[1.5rem] sticky top-0 left-0 z-10 min-w-[300px]">
+            <div className="flex items-center justify-between h-[40px] xl:w-[85%] md:mx-auto md:px-4">
                 <a href="#">
                     <img src={techtime} alt="Tech Time the title of the website" />
                 </a>
@@ -18,7 +32,7 @@ const Header = () => {
                 <nav>
 
                     {/* -------- Mobile Menu ---------------- */}
-                    <ul className={`min-h-screen fixed top-0 p-8 transition-all duration-200 ease-linear flex-col bg-[#e8e8e8] items-start text-[#004DB3] z-10 w-[70%] ${open ? "right-0" : "-right-[100%]"}  list-none text-[16px] md:hidden`}>
+                    <ul className={`min-h-screen fixed top-0 p-8 transition-all duration-200 ease-in flex-col bg-[#e8e8e8] items-start text-[#004DB3] z-10 w-[70%] ${open ? "right-0" : "-right-[100%]"}  list-none text-[16px] md:hidden`} ref={menuRef}>
 
                         <img src={menuClose} alt="menu icon close" className="cursor-pointer block ml-auto mb-8" onClick={() => setOpen(!open)} />
 
@@ -60,19 +74,20 @@ const Header = () => {
                             <a href="#">Community</a>
                         </li>
                         <li className="py-4">
-                            <button className="font-[700] text-[16px] bg-[#ffffff] text-[#004DB3] py-2 px-6 rounded-md border-4 border-solid border-[#ffffff] outline-none hover:bg-transparent hover:text-[#ffffff]">Enroll Now</button>
+                            <button className="font-[700] text-[16px] bg-[#ffffff] text-[#004DB3] py-2 px-6 rounded-md border-2 border-solid border-[#ffffff] outline-none hover:bg-transparent hover:text-[#ffffff]">Enroll Now</button>
                         </li>
                     </ul>
 
 
                     {/* -------- Darken background when Menu is Open-------- */}
-                    <div className={`${open ? "fixed w-full h-full bg-[#000000cc] left-0 top-0 transition-all duration-200 delay-75" : ""}`}></div>
+                    <div className={`${open ? "fixed w-full h-full bg-[#00000080] left-0 top-0 transition-all duration-200 delay-75" : ""}`}></div>
 
                 </nav>
 
                 {/* ----------- Menu Icon ------------------ */}
                 <img src={menu} alt="Menu Icon" className="w-[40px] cursor-pointer md:hidden"
                     onClick={() => setOpen(!open)} />
+            </div>
         </header>
     )
 }

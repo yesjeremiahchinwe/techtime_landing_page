@@ -15,7 +15,7 @@ import autoplay from "./assets/autoplay.png";
 
 const Features = () => {
   return (
-    <section className='min-h-screen w-full mx-auto bg-[#F8F9FC] pt-12 px-8 relative'>
+    <section className='min-h-screen w-full min-w-[300px] mx-auto bg-[#F8F9FC] pt-12 px-8 relative'>
       <img src={halfCircle} alt="Half Circle Pattern" className="absolute -right-4 top-[520px] hidden xl:block overflow-x-hidden" />
 
       <img src={manyDots} alt="Many dots" className="absolute hidden xl:block xl:right-16 xl:top-[400px]" />
@@ -31,8 +31,8 @@ const Features = () => {
           <p className='font-[500] leading-[28px] text-[#A1A1A1] py-8 text-center md:text-start'>high-defination video is video of higher resolution and quality than standard definition. while there’s no standard meaning for high definition, generally any standard video image</p>
           <button className='bg-[#004DB3] font-[700] text-[16px] leading-[21.6px] text-[#ffffff] py-4 px-6 block mx-auto md:mx-0 hover:text-[#004DB3] hover:bg-[#ffffff] border-solid border-4 rounded-lg border-[#004DB3] shadow-xl'>View Courses</button>
 
-          <div className="flex items-center gap-5 pt-8 justify-center md:justify-start">
-            <div className="bg-[#ffffff] w-fit px-4 py-4 flex gap-4 items-center rounded-md shadow-xl">
+          <div className="flex items-center gap-5 pt-8 justify-center md:justify-start flex-wrap w-full">
+            <div className="bg-[#ffffff] w-fit p-4 flex gap-4 items-center rounded-md shadow-xl">
               <div className="bg-[rgba(63,169,106,0.2)] p-4 flex items-center justify-center rounded-md w-[50px]">
                 <img src={volumeUp} alt="Volume Up" />
               </div>
@@ -47,7 +47,7 @@ const Features = () => {
             </div>
           </div>
 
-          <div className="flex items-center gap-5 pt-8 justify-center md:justify-start">
+          <div className="flex items-center gap-5 pt-8 justify-center md:justify-start flex-wrap">
             <div className="bg-[#ffffff] w-fit px-4 py-4 flex gap-4 items-center rounded-md shadow-xl">
               <div className="bg-[rgba(146,105,205,0.2)] p-4 flex items-center justify-center rounded-md w-[50px]">
                 <img src={autoplay} alt="Autoplay" />

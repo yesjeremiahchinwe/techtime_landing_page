@@ -16,8 +16,8 @@ const Hero = () => {
     
     return (
         <>
-            <section className='bg-[#004DB3] min-h-screen w-full flex flex-col items-center justify-center px-8 mx-auto relative'>
-                <img src={doubleW} alt="Skew line" className="w-[63.26px] h-[19.15px] top-[453.25px] -left-8 xl:left-0 absolute" />
+            <section className='bg-[#004DB3] min-h-screen w-full flex flex-col items-center justify-center px-8 mx-auto relative min-w-[300px]'>
+                <img src={doubleW} alt="Skew line" className="hidden xl:block w-[63.26px] h-[19.15px] top-[453.25px] -left-8 xl:left-0 absolute" />
                 <article className="relative xl:w-[90%] xl:mx-auto pt-8 md:pt-16">
                     <img
                         src={yellowCircle}
@@ -79,7 +79,7 @@ const Hero = () => {
                 </article>
             </section>
 
-            <div className="bg-[#CCDBF0] w-full min-w-[375px] flex items-center justify-center mx-auto p-8">
+            <div className="bg-[#CCDBF0] w-full flex items-center justify-center mx-auto p-8 min-w-[300px]">
                 <img src={companyIcons} alt="Group of Company Icons" />
             </div>
         </>

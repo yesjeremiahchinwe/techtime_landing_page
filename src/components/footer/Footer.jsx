@@ -12,7 +12,7 @@ const Footer = () => {
 
 
   return (
-    <footer className='bg-[#000F24] w-full min-h-[400px] mx-auto pt-12 px-8 pb-20'>
+    <footer className='bg-[#000F24] w-full min-w-[300px] min-h-[400px] mx-auto pt-12 px-8 pb-20'>
       <article className="md:py-16 md:w-[90%] md:mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 md:items-start md:justify-center gap-x-8 gap-y-4 md:gap-y-8">
         <div className="pb-10 md:pb-0">
           <a href="#"><img src={techtime} alt="Company logo" /></a>
@@ -52,7 +52,7 @@ const Footer = () => {
         <div>
           <h3 className="font-[600] text-[32px] leading-[39.36px] text-[#ffffff] pb-6">Subscribe Us</h3>
 
-          <div className="flex">
+          <div className="grid grid-cols-1 gap-4 items-center justify-center">
             <label htmlFor="email" className="absolute -left-[10000px]">Email</label>
             <input
               type="email"
@@ -60,9 +60,9 @@ const Footer = () => {
               placeholder="johndeo@gmail.com"
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              className="bg-[#2A2A2B] p-4 text-[#ffffff] max-w-[263px] outline-none border-[1px] border-solid border-[#004DB3] rounded-tl-[2px] rounded-bl-[2px] text-[14px] font-[500px] placeholder:text-[14px] placeholder:leading-[18.9px] placeholder:font-[500px] placeholder:text-[#424141]"
+              className="bg-[#2A2A2B] p-4 rounded-md text-[#ffffff] max-w-[263px] outline-none border-[1px] border-solid border-[#004DB3]  text-[14px] font-[500px] placeholder:text-[14px] placeholder:leading-[18.9px] placeholder:font-[500px] placeholder:text-[#A1A1A1]"
             />
-            <button type="submit" className="bg-[#054FB3] text-[#ffffff] font-[500] leading-[18.9px] py-4 px-[20px] rounded-tr-[2px] rounded-br-[2px] hover:bg-opacity-30">Send Message</button>
+            <button type="submit" className="bg-[#054FB3] text-[#ffffff] font-[500] leading-[18.9px] py-4 px-[20px] rounded-lg hover:bg-opacity-30 max-w-fit">Send Message</button>
           </div>
         </div>
       </article>

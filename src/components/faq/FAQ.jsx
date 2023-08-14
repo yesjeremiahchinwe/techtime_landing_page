@@ -17,11 +17,11 @@ const FAQ = () => {
 
 
     return (
-        <section className='min-h-screen w-full mx-auto bg-[#ffffff] pt-14 px-8 relative'>
+        <section className='min-h-screen w-full min-w-[300px] mx-auto bg-[#ffffff] pt-14 px-6 md:px-8 relative'>
             <img src={bigPurpleCircle} alt="Purple Circle" className="hidden xl:block absolute md:left-[85%] left-[92%] top-[10%]" />
             <img src={patterBg} alt="Background Pattern" className="absolute hidden md:block md:top-0 md:right-0" />
             <img src={wwIcon} alt="Double w" className="hidden md:block absolute top-[32%] left-0" />
-            <article className='py-8 md:max-w-[80%] md:mx-auto'>
+            <article className='w-full py-8 md:max-w-[80%] mx-auto'>
                 <h2 className='font-[600] text-[56px] leading-[68.88px] text-[#000F24] text-center'>Frequently Asked Questions</h2>
                 <p className='text-[#A1A1A1] font-[500] leading-[28px] text-center py-4 md:max-w-[75%] mx-auto'>
                     High-Defination Video Is Video Of Higher Resolution And Quality Than Standard Definition. While There’s No Standard Meaning For High Definition, Generally Any Standard Video Image

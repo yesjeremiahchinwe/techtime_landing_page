@@ -127,7 +127,7 @@ const Courses = () => {
         <div key={course.id} className="p-4 bg-[#ffffff] max-w-[439px] rounded-2xl hover:scale-[1.025] cursor-pointer shadow-xl">
             <img src={course.img} alt="A student sitting in front of a computer" />
 
-            <div className="flex justify-between py-4 items-center">
+            <div className="flex justify-between py-4 items-center flex-wrap gap-4">
                 <p className="bg-[rgba(30,93,206,0.2)] w-fit text-[#004DB3] py-[4px] px-[20px] rounded-2xl font-[700] text-center">{course.type}</p>
 
                 <small className="leading-[16.2px] text-[12px] font-[700] text-[#A1A1A1] flex items-center">{course.rate}k<img src={course.gradeIcon} alt="A star for grades" className="-mt-1 pr-2 pl-1" /><span>{course.rators}k+</span></small>
@@ -160,7 +160,7 @@ const Courses = () => {
 
 
     return (
-        <section className='min-h-screen w-full bg-[#F8F9FC] relative mx-auto px-8'>
+        <section className='min-h-screen w-full min-w-[300px] bg-[#F8F9FC] relative mx-auto px-8'>
             <img src={star} alt="A star" className="hidden xl:block absolute top-[150px] left-[200px]" />
             <article className='xl:w-[95%] xl:mx-auto md:py-6 flex flex-col justify-center items-center'>
                 <h2 className='text-center font-[600] text-[56px] leading-[68.88px] text-[#000F24]'>Browse Our Popular Courses</h2>
