@@ -26,7 +26,7 @@ const Features = () => {
         <img src={purpleCircle} alt="Purple Circle" className="absolute xl:block xl:left-[80%] xl:top-[620px] hidden" />
 
         <div>
-          <h2 className='font-[700] text-[32px] md:text-[56px] md:leading-[70px] text-center md:text-start relative'><img src={halfStar} alt="Half star" className="absolute -left-[3%] -top-10 xl:-left-8 md:-left-8" />High quality video, audio & live classes</h2>
+          <h2 className='font-[700] text-[32px] md:text-[56px] leading-[35px] md:leading-[70px] text-center md:text-start relative'><img src={halfStar} alt="Half star" className="absolute -left-[3%] -top-10 xl:-left-8 md:-left-8" />High quality video, audio & live classes</h2>
 
           <p className='font-[500] leading-[28px] text-[#A1A1A1] py-2 text-center md:text-start'>high-defination video is video of higher resolution and quality than standard definition. while there’s no standard meaning for high definition, generally any standard video image</p>
           <button className='bg-[#004DB3] font-[700] text-[16px] leading-[21.6px] text-[#ffffff] w-fit py-4 px-6 block mx-auto md:mx-0 hover:text-[#004DB3] hover:bg-[#ffffff] border-solid border-4 rounded-lg border-[#004DB3] shadow-xl'>View Courses</button>

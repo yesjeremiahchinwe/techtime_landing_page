@@ -22,7 +22,7 @@ const FAQ = () => {
             <img src={patterBg} alt="Background Pattern" className="absolute hidden md:block md:top-0 md:right-0" />
             <img src={wwIcon} alt="Double w" className="hidden md:block absolute top-[32%] left-0" />
             <article className='w-full py-8 md:max-w-[80%] mx-auto'>
-                <h2 className='font-[600] text-2xl md:text-[56px] leading-[68.88px] text-[#000F24] text-center'>Frequently Asked Questions</h2>
+                <h2 className='font-[600] text-2xl md:text-[56px] leading-[35px] md:leading-[68.88px] text-[#000F24] text-center'>Frequently Asked Questions</h2>
                 <p className='text-[#A1A1A1] font-[500] leading-[28px] text-center md:py-2 md:max-w-[75%] mx-auto'>
                     High-Defination Video Is Video Of Higher Resolution And Quality Than Standard Definition. While There’s No Standard Meaning For High Definition, Generally Any Standard Video Image
                 </p>

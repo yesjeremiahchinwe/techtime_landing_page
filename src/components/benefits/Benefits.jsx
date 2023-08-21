@@ -21,7 +21,7 @@ const Benefits = () => {
 
             <article className="lg:w-[90%] mx-auto md:py-6 md:px-4 grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
                 <div>
-                    <h2 className='font-[700] text-[32px] md:text-[56px] md:leading-[70px] text-[#000F24] text-center md:text-start'>This is why we are best from others</h2>
+                    <h2 className='font-[700] text-[32px] md:text-[56px] leading-[35px] md:leading-[70px] text-[#000F24] text-center md:text-start'>This is why we are best from others</h2>
                     <p className='font-[500] leading-[28px] text-[#A1A1A1] py-2 text-center md:text-start'>High-defination video is video of higher resolution and quality than standard definition. while there’s no standard meaning for high definition, generally any standard video image</p>
                     <img src={oneStudent} alt="A student in front of a computer" />
                 </div>

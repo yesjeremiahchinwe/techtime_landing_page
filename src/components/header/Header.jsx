@@ -24,7 +24,7 @@ const Header = () => {
 
     return (
         <header className="bg-[#004DB3] text-[#ffffff] w-full px-4 py-4 xl:p-[1.5rem] sticky top-0 left-0 z-10 min-w-[300px]">
-            <div className="flex items-center justify-between h-[20px] md:h-[50px] lg:w-[90%] mx-auto md:px-4">
+            <div className="flex items-center justify-between h-[30px] md:h-[50px] lg:w-[90%] mx-auto md:px-4">
                 <a href="#" className="w-16 md:w-28">
                     <img src={techtime} alt="Tech Time the title of the website" />
                 </a>

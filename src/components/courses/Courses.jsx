@@ -163,7 +163,7 @@ const Courses = () => {
         <section className='min-h-screen w-full min-w-[300px] bg-[#F8F9FC] relative mx-auto px-8'>
             <img src={star} alt="A star" className="hidden xl:block absolute top-[150px] left-[200px]" />
             <article className='xl:w-[95%] xl:mx-auto md:py-6 flex flex-col justify-center items-center'>
-                <h2 className='text-center font-[600] text-2xl md:text-[56px] leading-[68.88px] text-[#000F24]'>Browse Our Popular Courses</h2>
+                <h2 className='text-center font-[600] text-2xl md:text-[56px] leading-[35px] md:leading-[68.88px] text-[#000F24]'>Browse Our Popular Courses</h2>
                 <p className='font-[500] leading-[28px] text-center text-[#A1A1A1] md:max-w-[50%] mx-auto md:pt-2'>High-defination video is video of higher resolution and quality than standard definition. while there’s no standard meaning for high definition, generally any standard video image</p>
 
                 <ul className='w-full mx-auto py-6 pb-16 flex justify-center items-center list-none m-0 gap-x-4 lg:gap-x-14 gap-y-2 flex-wrap'>
