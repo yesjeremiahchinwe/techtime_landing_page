@@ -38,12 +38,12 @@ const Hero = () => {
                                 <button className="bg-[#ffffff] text-sm text-[#004DB3] p-2 md:p-4 border-solid border-[1px] border-[#ffffff] rounded-[4px] font-[700] hover:bg-transparent hover:text-[#ffffff] hover:border-solid hover:border-[1px] hover:border-[#ffffff] hover:rounded-[4px]">Enroll Now</button>
                             </div>
 
-                            <div className="py-4 flex flex-col items-center md:items-start gap-2 sm:flex-row mx-auto w-full justify-center md:justify-start">
+                            <div className="w-full px-4 md:px-0 py-4 flex items-center gap-1 mx-auto w-full justify-center md:justify-start">
                                <img src={groupOfStudents} alt="Group of students" />
 
                                 <div className="">
-                                    <h3 className="font-[700] text-[#ffffff] leading-[29.52px] text-[24px]">255k+</h3>
-                                    <small className="font-[500] text-[#E7E7E7] text-[16px]">Previews</small>
+                                    <h3 className="font-[700] text-[#ffffff] md:leading-[29.52px] md:text-[24px]">255k+</h3>
+                                    <small className="font-[500] text-[#E7E7E7] md:text-[16px] -mt-1 block">Previews</small>
                                 </div>
                             </div>
                         </div>
