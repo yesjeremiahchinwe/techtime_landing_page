@@ -23,9 +23,9 @@ const Header = () => {
 
 
     return (
-        <header className="bg-[#004DB3] text-[#ffffff] w-full p-[1.5rem] sticky top-0 left-0 z-10 min-w-[300px]">
-            <div className="flex items-center justify-between h-[40px] xl:w-[85%] md:mx-auto md:px-4">
-                <a href="#">
+        <header className="bg-[#004DB3] text-[#ffffff] w-full px-4 py-4 xl:p-[1.5rem] sticky top-0 left-0 z-10 min-w-[300px]">
+            <div className="flex items-center justify-between h-[20px] md:h-[50px] lg:w-[90%] mx-auto md:px-4">
+                <a href="#" className="w-16 md:w-28">
                     <img src={techtime} alt="Tech Time the title of the website" />
                 </a>
 
@@ -34,7 +34,7 @@ const Header = () => {
                     {/* -------- Mobile Menu ---------------- */}
                     <ul className={`min-h-screen fixed top-0 p-8 transition-all duration-200 ease-in flex-col bg-[#e8e8e8] items-start text-[#004DB3] z-10 w-[70%] ${open ? "right-0" : "-right-[100%]"}  list-none text-[16px] md:hidden`} ref={menuRef}>
 
-                        <img src={menuClose} alt="menu icon close" className="cursor-pointer block ml-auto mb-8" onClick={() => setOpen(!open)} />
+                        <img src={menuClose} alt="menu icon close" className="w-[20px] cursor-pointer block ml-auto mb-8" onClick={() => setOpen(!open)} />
 
                         <li className="py-4 hover:opacity-50 w-fit">
                             <a href="#">Home</a>
@@ -85,7 +85,7 @@ const Header = () => {
                 </nav>
 
                 {/* ----------- Menu Icon ------------------ */}
-                <img src={menu} alt="Menu Icon" className="w-[40px] cursor-pointer md:hidden"
+                <img src={menu} alt="Menu Icon" className="w-[25px] cursor-pointer md:hidden"
                     onClick={() => setOpen(!open)} />
             </div>
         </header>
